@@ -6,8 +6,9 @@ Bu depo `mertokuyaz.github.io` deposundan bağımsızdır.
 ## Tema
 
 [geohot'un blogundaki](https://geohot.github.io/blog/) klasik **Minima** teması kullanılır.
-Tema GitHub Pages tarafından sağlanır; özel CSS veya layout geçersiz kılmaları yoktur.
-Yazı listesi, tipografi, açık arka plan ve mavi bağlantılar Minima'nın varsayılan görünümüdür.
+Tema GitHub Pages tarafından sağlanır; özel layout geçersiz kılmaları yoktur.
+Yazı listesi, açık arka plan ve mavi bağlantılar Minima'nın varsayılan görünümüdür.
+Yazı sayfalarındaki metinler `assets/main.scss` üzerinden 2,5 kat büyütülmüştür (gövde: 16 → 40 px); ana sayfa değişmez.
 Başlık, açıklama ve sosyal bağlantılar `_config.yml` dosyasından düzenlenebilir.
 
 ## Adresler

@@ -1,0 +1,34 @@
+---
+---
+
+@import "minima";
+
+// Keep the Minima layout; enlarge only article typography by 2.5x.
+$post-font-scale: 2.5;
+
+.post {
+  overflow-wrap: anywhere;
+
+  .post-title { font-size: 42px * $post-font-scale; }
+  .post-meta { font-size: 14px * $post-font-scale; }
+}
+
+.post-content {
+  font-size: $base-font-size * $post-font-scale;
+
+  h2 { font-size: 32px * $post-font-scale; }
+  h3 { font-size: 26px * $post-font-scale; }
+  h4 { font-size: 20px * $post-font-scale; }
+  blockquote { font-size: 18px * $post-font-scale; }
+  pre, code { font-size: 15px * $post-font-scale; }
+  pre > code { font-size: inherit; }
+}
+
+@media screen and (max-width: 800px) {
+  .post .post-title { font-size: 36px * $post-font-scale; }
+  .post-content {
+    h2 { font-size: 28px * $post-font-scale; }
+    h3 { font-size: 22px * $post-font-scale; }
+    h4 { font-size: 18px * $post-font-scale; }
+  }
+}
