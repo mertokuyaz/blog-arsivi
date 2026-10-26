@@ -1,0 +1,26 @@
+title: Mert Okuyaz
+description: Yazılım, bulut teknolojileri ve yan projeler üzerine kişisel blog.
+author: Mert Okuyaz
+lang: tr
+timezone: Europe/Istanbul
+url: https://mertokuyaz.github.io
+baseurl: /blog-arsivi
+permalink: /yazilar/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
