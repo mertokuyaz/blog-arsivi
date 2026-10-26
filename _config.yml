@@ -6,6 +6,12 @@ timezone: Europe/Istanbul
 url: https://mertokuyaz.github.io
 baseurl: /blog-arsivi
 permalink: /yazilar/:title/
+theme: minima
+github_username: mertokuyaz
+twitter_username: mertokuyaz
+header_pages:
+  - about.md
+show_excerpts: false
 markdown: kramdown
 kramdown:
   input: GFM

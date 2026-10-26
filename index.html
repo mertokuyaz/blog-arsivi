@@ -1,23 +1,4 @@
 ---
-layout: default
-title: Yazılar
+layout: home
+list_title: Yazılar
 ---
-<section class="intro">
-  <p class="eyebrow">Kişisel blog</p>
-  <h1>Yazılım, bulut<br>ve yan projeler.</h1>
-  <p>{{ site.description }}</p>
-</section>
-<section class="post-list" aria-labelledby="yazilar-basligi">
-  <div class="section-heading">
-    <h2 id="yazilar-basligi">Yazılar</h2>
-    <span>{{ site.posts | size }} yazı</span>
-  </div>
-  {% for post in site.posts %}
-  <article class="post-card">
-    <p class="eyebrow">{{ post.category | default: 'Blog' }} · <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d.%m.%Y' }}</time></p>
-    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-    <p>{{ post.description }}</p>
-    <a class="read-link" href="{{ post.url | relative_url }}">Yazıyı oku <span aria-hidden="true">→</span></a>
-  </article>
-  {% endfor %}
-</section>

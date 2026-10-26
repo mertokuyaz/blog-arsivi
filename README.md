@@ -3,6 +3,13 @@
 Markdown tabanlı, GitHub Pages üzerinde ücretsiz yayımlanan Jekyll blogu.
 Bu depo `mertokuyaz.github.io` deposundan bağımsızdır.
 
+## Tema
+
+[geohot'un blogundaki](https://geohot.github.io/blog/) klasik **Minima** teması kullanılır.
+Tema GitHub Pages tarafından sağlanır; özel CSS veya layout geçersiz kılmaları yoktur.
+Yazı listesi, tipografi, açık arka plan ve mavi bağlantılar Minima'nın varsayılan görünümüdür.
+Başlık, açıklama ve sosyal bağlantılar `_config.yml` dosyasından düzenlenebilir.
+
 ## Adresler
 
 - Blog: https://mertokuyaz.github.io/blog-arsivi/

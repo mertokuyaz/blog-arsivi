@@ -8,6 +8,8 @@ archive_url: https://web.archive.org/web/20220124174541/https://hashnode.com/pos
 image: /assets/images/bulut-maliyetleri.png
 ---
 
+> **Arşiv notu:** Bu yazı ilk kez 24 Ocak 2022'de Hashnode'da yayımlandı ve [arşiv kaydından]({{ page.archive_url }}) geri getirildi. Görseller bu siteye yedeklenmiştir. Fiyatlar ve teknik bilgiler yazının yayımlandığı tarihe aittir.
+
 Diyelim ki, aklınıza gelecekte size çok iyi kapılar açacak bir proje fikri geldi ve o proje için bir gece yarısı bilgisayarınızın başına geçtiniz. Bütün gece kod yazdınız ve 24 saatte harikalar yarattınız. Şimdi o projeyi dünyayla paylaşma zamanı.
 
 Muhtemelen aklınıza ilk başta, projeyi üç bulut devinden birini (Amazon Web Services (AWS), Google Cloud Platform, Microsoft Azure) kullanarak paylaşmak gelecektir.
